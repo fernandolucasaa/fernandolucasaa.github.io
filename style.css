@@ -1,9 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   font-family: "Roboto", sans-serif;
   text-align: center;
   background-color: rgb(240,240,240);
 }
 
-footer{
+.grid{
+  display: grid;
+  grid-template: 5% 1fr 1fr 1fr 5% / repeat(4, 1fr);
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  grid-row: 1 / 2;
+  grid-column: 1 / 5;
+  background-color: rgb(50,50,50);
+}
+
+nav li{
   font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(240,240,240);
+  display: inline-block;
+}
+
+footer{
+  font-size: 12px;
+  grid-row: 5 / 6;
+  grid-column-start: 1;
+  grid-column-end: 5;
 }
