@@ -1,6 +1,9 @@
-/* -----
-SVG Icons - svgicons.sparkk.fr
------ */
-*{
+body{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
   background-color: rgb(240,240,240);
+}
+
+footer{
+  font-size: 14px;
 }
