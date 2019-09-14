@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<script type="text/javascript" scr="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script> -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
   </head>
 
   <body>
@@ -33,6 +36,30 @@
         <p class="resume">Hi! My name is Fernando and that is my personal website! Here you will find some informations about my background,
           my studies, my projects and experiences in a minimalist way (less is more) :)</p>
       </div>
+
+      <!-- CONTACT-->
+      <form action="https://formspree.io/fernando.lucasaa@gmail.com" method="POST">
+        <label>
+          Name:
+          <input type="text" class="name">
+        </label>
+        <label>
+          E-mail:
+          <input type="email" class="email">
+        </label>
+        <label>
+          Subject:
+          <input type="text" class="subject">
+        </label>
+        <label>
+          Message:
+          <textarea name="name" rows="8" cols="80" class="message"></textarea>
+        </label>
+        <div class="status">
+
+        </div>
+        <input type="submit" value="Send" class="submit">
+      </form>
 
       <!-- FOOTER -->
       <footer>
