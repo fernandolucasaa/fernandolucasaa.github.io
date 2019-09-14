@@ -22,7 +22,7 @@
             <li>About</li>
             <li>Experience</li>
             <li>Skills</li>
-            <li>Contact</li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -38,28 +38,32 @@
       </div>
 
       <!-- CONTACT-->
-      <form action="https://formspree.io/fernando.lucasaa@gmail.com" method="POST">
-        <label>
-          Name:
-          <input type="text" class="name">
-        </label>
-        <label>
-          E-mail:
-          <input type="email" class="email">
-        </label>
-        <label>
-          Subject:
-          <input type="text" class="subject">
-        </label>
-        <label>
-          Message:
-          <textarea name="name" rows="8" cols="80" class="message"></textarea>
-        </label>
-        <div class="status">
+      <div class="contact_section">
+        <h1>Leave a message</h1>
+        <p>Everything starts with a "hi"...</p>
+        <form action="https://formspree.io/fernando.lucasaa@gmail.com" method="POST" id="contact">
+          <label>
+            Name:
+            <input type="text" name="name" class="name">
+          </label>
+          <label>
+            E-mail:
+            <input type="email" name="email" class="email">
+          </label>
+          <label>
+            Subject:
+            <input type="text" name="subject" class="subject">
+          </label>
+          <label>
+            Message:
+            <textarea name="message" rows="8" cols="80" class="message"></textarea>
+          </label>
+          <div class="status">
 
-        </div>
-        <input type="submit" value="Send" class="submit">
-      </form>
+          </div>
+          <input type="submit" value="Send" class="submit">
+        </form>
+      </div>
 
       <!-- FOOTER -->
       <footer>

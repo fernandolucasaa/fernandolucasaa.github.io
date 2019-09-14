@@ -31,6 +31,15 @@ nav li{
   width: 200px;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+header a:hover{
+  color: white;
+}
+
 .about{
   position: relative;
   top: 40px;
@@ -51,9 +60,10 @@ img{
   width: auto;
 }
 
-form{
+.contact_section{
   grid-row: 4 / 5;
   grid-column: 1 / 5;
+  background-color: rgb(168,230,206);
 }
 
 footer{
