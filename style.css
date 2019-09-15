@@ -66,6 +66,24 @@ img{
   background-color: rgb(168,230,206);
 }
 
+form{
+  font-family: inherit;
+}
+
+input{
+  border-radius: 3px;
+  border: 1px solid rgb(245,245,245);
+  height: 20px;
+  width: 500px;
+}
+
+textarea{
+  border-radius: 3px;
+  border: 1px solid rgb(245,245,245);
+  height: 50px;
+  width: 500px;
+}
+
 footer{
   font-size: 12px;
   grid-row: 5 / 6;
