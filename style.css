@@ -11,7 +11,7 @@ body{
 
 .grid{
   display: grid;
-  grid-template: 100px 650px 300px 300px 300px 350px 80px / repeat(4, 1fr);
+  grid-template: 35px 650px 300px 300px 300px 350px 80px / repeat(4, 1fr);
 }
 
 /*HEADER*/
