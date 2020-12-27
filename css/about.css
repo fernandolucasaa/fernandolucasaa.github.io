@@ -33,12 +33,12 @@
   max-width: 40rem;
 }
 
-.education-section img {
-  height: 100px;
+.education-section img, .experience-section img {
+  height: 150px;
   width: auto;
 }
 
-.education-section a {
+.education-section a, .experience-section a {
   color: inherit;
   text-decoration: none;
 }
