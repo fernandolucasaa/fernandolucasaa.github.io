@@ -1,109 +1,105 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Fernando Lucas Araújo Amaral</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="Fernando Lucas Araújo Amaral Website">
+    <meta name="author" content="Fernando Lucas Araujo Amaral">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta charset="utf-8">
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Font Awesome-->
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>-->
+    <!-- Style CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--<script type="text/javascript" scr="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script> -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="./main.js"></script>
+    <!-- Title -->
+    <title>Fernando Lucas Araújo Amaral</title>
+    <!-- Favicon -->
+    <link rel="icon" type="img/png" href="images/favicon_io/favicon-32x32.png">
   </head>
-
   <body>
-    <div class="grid">
-
-      <!--HEADER-->
-      <header>
-        <nav>
-          <ul>
-            <li><a href="#abt">About</a></li>
-            <li><a href="#educ">Education</a></li>
-            <li><a href="#xp">Experience</a></li>
-            <li><a href="#skil">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-
-      <!-- ABOUT -->
-      <div id="abt" class="about">
-        <div class="box">
-          <img src="ressources/eu2.jpg" class="box-img">
-          <h1>Fernando Lucas Araújo Amaral</h1>
-          <h5>Engineering student</h5>
-          <h5>[SITE UNDER CONSTRUCTION]</h5>
-          <p class="resume">Hi! My name is Fernando and that is my personal website! Here you will find some informations about my background,
-          my projects and experiences in a minimalist way (less is more) :)</p>
-          <a href="ressources/CV_ARAUJO-AMARAL_Fernando-Lucas (1).pdf" download target="_blank">Download my CV (in french)</a>
-        </div>
-      </div>
-
-      <!-- EDUCATION -->
-      <div id="educ" class="education">
-        <h1>Education</h1>
-        <h2>INSA Rennes</h2>
-        <p>Electronics and Computer Engineering</p>
-        <a href="https://www.insa-rennes.fr/" target="_blank"><img src="ressources/Insa-rennes-logo.svg.png"></a>
-        <h2>UNICAMP</h2>
-        <p>Control and Automation Engineering</p>
-        <a href="https://www.unicamp.br/unicamp/" target="_blank"><img src="ressources/UNICAMP_logo.svg.png"></a>
-      </div>
-
-      <!-- EXPERIENCE -->
-      <div id="xp" class="experiences">
-        <h1>Experience</h1>
-        <p>RPS, Automatica, Phoenix, Unicamp</p>
-      </div>
-
-      <!-- SKILLS -->
-      <div id="skil" class="skills">
-        <h1>Skills</h1>
-        <p>C, Python, C++, Java, VHDL, Matlab</p>
-      </div>
-
-      <!-- CONTACT-->
-      <div class="contact_section">
-        <h1>Leave a message</h1>
-        <form action="https://formspree.io/fernando.lucasaa@gmail.com" method="POST" id="contact">
-          <label>
-            Name:
-            <br>
-            <input type="text" name="name" placeholder="" class="name">
-          </label>
-          <br><br>
-          <label>
-            E-mail:
-            <br>
-            <input type="email" name="email" placeholder="" class="email">
-          </label>
-          <br><br>
-          <label>
-            Message:
-            <br>
-            <textarea name="message" rows="8" cols="80" placeholder="" class="message"></textarea>
-          </label>
-          <br><br>
-          <input type="submit" value="Send" class="submit">
-        </form>
-      </div>
-
-      <!-- FOOTER -->
-      <footer>
+    <!-- Section 1: Navigation bar -->
+    <header>
+      <!-- Navigation bar -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark shadow navbar-site">
         <div class="container">
-          <nav class="social">
-            <a href="https://www.linkedin.com/in/fernandolucasaa/" target="_blank" class="fa fa-linkedin"></a>
-            <a href="https://github.com/fernandolucasaa" target="_blank" class="fa fa-github"></a>
-            <a href="https://www.facebook.com/fernando.lucasaa" target="_blank" class="fa fa-facebook"></a>
-            <a href="https://www.instagram.com/fernando.lucasaa/" target="_blank" class="fa fa-instagram"></a>
-          </nav>
-          <p>&copy; Fernando Lucas Araújo Amaral. All rights reserved.</p>
+          <!-- Logotype and text -->
+          <a class="navbar-brand" href="index.html">
+            Fernando Amaral
+          </a>
+          <!-- Navigation button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Itens -->
+          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle desactivate" href="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="about.html">Education</a>
+                  <a class="dropdown-item" href="about.html#experience">Experience</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </footer>
+      </nav>
+    </header>
+    <!-- Section: Presentation -->
+    <section class="pt-5">
+      <div class="container-fluid presentation">
+        <div class="row align-items-center h-100">
+          <div class="col-lg-5 mx-auto about-me text-white py-4 text-center">
+            <img src="images/eu.jpg">
+            <h1>Fernando Lucas<br>Araújo Amaral</h1>
+            <h4 class="py-2 lead">Engineering student</h4>
+            <p>Hi! My name is Fernando and that is my personal website! Here you will find some informations about my background, my projects and experiences. Feel free to explore :)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+      <div class="site-footer text-white bg-dark">
+        <div class="container pt-3">
+          <div class="col-md-12">
+            <div class="footer-links-social text-center">
+              <a href="https://www.linkedin.com/in/fernandolucasaa/" target="_blank"><i class="fab fa-linkedin-in mx-1"></i></a>
+              <a href="https://github.com/fernandolucasaa" target="_blank"><i class="fab fa-github mx-1"></i></a>
+              <a href="https://www.facebook.com/fernando.lucasaa" target="_blank"><i class="fab fa-facebook-f mx-1"></i></a>
+              <a href="https://www.instagram.com/fernando.lucasaa/" target="_blank"><i class="fab fa-instagram mx-1"></i></a>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>© 2020-2021 | Fernando Lucas Araújo Amaral. All rights reserved.</p>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </footer>
 
-    </div>
+    <!-- Optional JavaScript -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </body>
-
 </html>

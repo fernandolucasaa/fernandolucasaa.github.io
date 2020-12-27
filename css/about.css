@@ -1,0 +1,71 @@
+.navbar-site .nav-item {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar-site .nav-item .dropdown-item {
+  text-transform: none;
+}
+
+.navbar-site .nav-link:hover {
+  color: royalblue !important;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+  background-color: lightskyblue;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.education-section img, .experience-section img {
+  height: 150px;
+  width: auto;
+}
+
+.education-section a, .experience-section a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.education-section h1 {
+  font-weight: 300;
+}
+
+.education-section .formation {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.experience-section h1 {
+  font-weight: 300;
+}
+
+.footer-links-social a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.site-footer hr {
+  border-top-color:#bbb;
+}
+
+.footer-links-social i:hover {
+  color: royalblue;
+}
